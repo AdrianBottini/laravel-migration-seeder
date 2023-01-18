@@ -24,7 +24,7 @@
             </div>
         @endforeach
 
-        {{-- @foreach ($trains as $items)
+        @foreach ($trains as $items)
             @if($items->in_time == 1)
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             @endif
-        @endforeach --}}
+        @endforeach
     </div>
 </body>
 </html>
